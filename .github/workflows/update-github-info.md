@@ -14,8 +14,7 @@ tools:
   web-fetch:
 network:
   allowed:
-    - github.com
-    - github.blog
+    - github
     - awesome-copilot.github.com
 ---
 
@@ -31,9 +30,12 @@ Use these sources:
 - GitHub Changelog: https://github.blog/changelog/
 - Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-Update `site/content/github-info.md` with concise,
-practical updates for readers and include source context when content comes
-from the GitHub Blog or GitHub Changelog.
+Make at least one useful update to `site/content/github-info.md` based on the
+sources above. Keep the update concise and practical for readers.
+
+In `site/content/github-info.md`, identify the source for every added update.
+Use a recognizable source name and link, such as `GitHub Blog`,
+`GitHub Changelog`, or `Awesome Copilot workflows`.
 
 Open a pull request for Mona to review. 
 Use a pull request title that mentions Mona or GitHub Info. 
