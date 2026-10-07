@@ -14,7 +14,8 @@ tools:
   web-fetch:
 network:
   allowed:
-    - github
+    - github.com
+    - github.blog
     - awesome-copilot.github.com
 ---
 
